@@ -1,0 +1,15 @@
+title: yangshicun
+description: 嵌入式全栈技术博客
+author: yangshicun
+url: "https://yangshicun.github.io"
+
+theme: minima
+
+markdown: kramdown
+highlighter: rouge
+
+permalink: /:categories/:title/
+
+header_pages:
+  - index.md
+  - about.md
