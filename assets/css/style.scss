@@ -1,0 +1,94 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --bg: #0d1117;
+  --bg-soft: #161b22;
+  --border: #30363d;
+  --text: #c9d1d9;
+  --text-dim: #8b949e;
+  --accent: #58a6ff;
+  --accent-soft: #1f6feb;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "JetBrains Mono", "Fira Code", "Consolas", monospace;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-soft);
+  text-decoration: underline;
+}
+
+.site-header {
+  background-color: var(--bg-soft);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--text);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.site-nav .page-link {
+  color: var(--text-dim);
+}
+
+.site-nav .page-link:hover {
+  color: var(--accent);
+}
+
+.post-title,
+.page-heading {
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.3em;
+}
+
+hr {
+  border-color: var(--border);
+}
+
+code {
+  background-color: var(--bg-soft);
+  color: #ff7b72;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1em;
+  overflow-x: auto;
+}
+
+pre code {
+  background: none;
+  color: var(--text);
+}
+
+blockquote {
+  border-left: 3px solid var(--accent);
+  color: var(--text-dim);
+  padding-left: 1em;
+}
+
+.site-footer {
+  background-color: var(--bg-soft);
+  border-top: 1px solid var(--border);
+  color: var(--text-dim);
+}
